@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusmia Rahaman Urfa - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6;
+        }
+        /* Styling for the main resume container */
+        .resume-container {
+            max-width: 850px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            border-bottom: 2px solid #209990; /* Accent color */
+            padding-bottom: 4px;
+            margin-bottom: 1rem;
+        }
+        @media print {
+            body {
+                background-color: white !important;
+            }
+            .resume-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .page-break {
+                display: block;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="resume-container mx-auto bg-white rounded-lg overflow-hidden">
+        
+        <!-- HEADER SECTION -->
+        <header class="bg-gray-800 text-white p-6 rounded-t-lg">
+            <h1 class="text-4xl font-extrabold tracking-wide mb-1">Rusmia Rahaman Urfa</h1>
+            <p class="text-xl font-light text-green-300">Software Engineer</p>
+            
+            <!-- Contact Info -->
+            <div class="flex flex-wrap mt-4 text-sm font-medium">
+                <div class="flex items-center mr-6 mb-2">
+                    <i data-lucide="mail" class="w-4 h-4 mr-2 text-green-400"></i>
+                    <a href="mailto:rusmiarahaman77461@gmail.com" class="hover:text-green-300">rusmiarahaman77461@gmail.com</a>
+                </div>
+                <div class="flex items-center mr-6 mb-2">
+                    <i data-lucide="linkedin" class="w-4 h-4 mr-2 text-green-400"></i>
+                    <a href="#" class="hover:text-green-300">LinkedIn</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="p-6">
+
+            <!-- SKILLS SECTION -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 section-title">SKILLS</h2>
+                <div class="flex flex-wrap gap-2 text-sm">
+                    <span class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-full">Programming: Node.js, Python, C/C++, SQL, PHP</span>
+                    <span class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-full">Server: Express.js</span>
+                    <span class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-full">Database: MySQL</span>
+                    <span class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-full">Web: HTML, CSS, ReactJS</span>
+                    <span class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-full">Development Tools: Git, Github, VS Code</span>
+                    <span class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-full">Others: Team Collaboration, Leadership, Product Management</span>
+                </div>
+            </section>
+            
+            <!-- EDUCATION SECTION -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 section-title">EDUCATION</h2>
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800">BSc. in Computer Science and Engineering</h3>
+                            <p class="text-base text-gray-600">Bangladesh Army International University of Science and Technology</p>
+                        </div>
+                        <p class="text-sm text-gray-500 font-semibold">Current</p>
+                    </div>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Current CGPA: 3.84</li>
+                        <li>Got Merit-Based Scholarship for the last 5 semesters consistently for good results.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE SECTION -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 section-title">WORK EXPERIENCE</h2>
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800">Software Engineer Intern</h3>
+                            <p class="text-base text-gray-600">BAIUST Computer Club</p>
+                        </div>
+                        <p class="text-sm text-gray-500 font-semibold">May, 2023 - Present</p>
+                    </div>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Led a team of 5 members to build modules for our campus.</li>
+                        <li>Currently working on the Bus Tracker project.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 section-title">PROJECTS</h2>
+                
+                <!-- BAIUST Events Management System -->
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-lg font-bold text-gray-800">BAIUST Events Management System</h3>
+                        <p class="text-sm text-gray-500 font-semibold">July, 2025</p>
+                    </div>
+                    <p class="text-gray-700 text-sm italic mb-2">Web-based application to streamline the process of managing university events.</p>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Provided a centralized platform for BAIUST to publish upcoming events.</li>
+                        <li>Enabled students to easily browse and register for events online.</li>
+                        <li>Facilitated event organizers in managing event details and tracking student registrations.</li>
+                        <li>Demonstrated a full-stack development approach utilizing modern web technologies and a relational database.</li>
+                    </ul>
+                </div>
+
+                <!-- EASYSHOP: An E-Commerce Website -->
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-lg font-bold text-gray-800">EASYSHOP: An E-Commerce Website</h3>
+                        <p class="text-sm text-gray-500 font-semibold">May - July, 2025</p>
+                    </div>
+                    <p class="text-gray-700 text-sm italic mb-2">Designed and developed a user-friendly and efficient e-commerce website.</p>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Implemented 3 key modules: User, Admin, and Payment Gateway (Bkash).</li>
+                        <li>Technologies Used: HTML, CSS, JavaScript, PHP, MySQL.</li>
+                    </ul>
+                </div>
+                
+                <!-- To-Do List App -->
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-lg font-bold text-gray-800">To-Do List App</h3>
+                        <p class="text-sm text-gray-500 font-semibold">March, 2025</p>
+                    </div>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Developed the app to add and remove regular tasks for better working planning.</li>
+                        <li>Technologies Used: HTML, CSS, and JavaScript.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- LEADERSHIP & CERTIFICATIONS -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- LEADERSHIP SECTION -->
+                        <section class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 section-title">CLUB LEADERSHIP</h2>
+                
+                 <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800">Senior Executive Member</h3>
+                            <p class="text-base text-gray-600">BAIUST Computer Club</p>
+                        </div>
+                        <p class="text-sm text-gray-500 font-semibold">Oct, 2025 - Present</p>
+                    </div>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Built MoU Agreement Proposal with Bug Fixers</li>
+                        <li>Currently working on the BCC Sponsorship Proposal</li>
+                        <li>Volunteering in Engineering Adda twice in a week for over 50 students</li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800">Executive Member</h3>
+                            <p class="text-base text-gray-600">BAIUST Debate Club</p>
+                        </div>
+                        <p class="text-sm text-gray-500 font-semibold">Nov, 2024 - June, 2025</p>
+                    </div>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Successfully organized an Asian Parliamentary Debate Workshop for over 100 participants</li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800">Executive Member</h3>
+                            <p class="text-base text-gray-600">BAIUST Computer Club</p>
+                        </div>
+                        <p class="text-sm text-gray-500 font-semibold">Oct, 2024 - June, 2025</p>
+                    </div>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm">
+                        <li>Successfully organized and managed "DEV_FEST 2024" for over 100 participants.</li>
+                    </ul>
+                </div>
+                </section>
+
+                <!-- CERTIFICATIONS SECTION -->
+                <section class="mb-6">
+                    <h2 class="text-2xl font-semibold text-gray-800 section-title">CERTIFICATIONS</h2>
+                    <ul class="list-disc ml-6 mt-1 text-gray-700 text-sm space-y-2">
+                        <li>Completed a "Python Course" by BAIUST Computer Club.</li>
+                        <li>Completed a "Web Development Boot Camp" by BongoDev Software Company.</li>
+                        <li>Participated in "Hackathon of CSE Fest".</li>
+                        <li>Organized the "Asian Parliamentary Debate Workshop 2025" successfully.</li>
+                        <li>Participated in the "Intra-Debate Competition 2023".</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- INTERESTS SECTION -->
+            <section>
+                <h2 class="text-2xl font-semibold text-gray-800 section-title">INTERESTS</h2>
+                <p class="text-gray-700 text-sm">Listening songs, Reading books, Watching movies, Coding.</p>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
